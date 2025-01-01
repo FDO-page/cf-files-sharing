@@ -3,11 +3,11 @@ name: Deploy to Cloudflare Workers
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on pushes to the `main` branch
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04  # Use a specific Ubuntu version
 
     steps:
     - name: Checkout repository
