@@ -8,5 +8,5 @@ bucket_name = "file-share"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "file-share"
-database_id = ""    # Will be set during deployment
+database_name = "files"
+database_id = "8566dc48-723e-4802-91fc-2a80c6ecc22a"    # Will be set during deployment
